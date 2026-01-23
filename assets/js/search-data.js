@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-adventure",
-          title: "adventure",
+          title: "Adventure",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
@@ -435,7 +435,37 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
+      },{id: "adventure-rock-climbing",
+          title: 'Rock Climbing',
+          description: "a project with a background image and giscus comments",
+          section: "Adventure",handler: () => {
+              window.location.href = "/adventure/biking/";
+            },},{id: "adventure-cycling",
+          title: 'Cycling',
+          description: "a project with a background image",
+          section: "Adventure",handler: () => {
+              window.location.href = "/adventure/cycling/";
+            },},{id: "adventure-mountaineering",
+          title: 'Mountaineering',
+          description: "with background image",
+          section: "Adventure",handler: () => {
+              window.location.href = "/adventure/mountaineering/";
+            },},{id: "adventure-paragliding",
+          title: 'Paragliding',
+          description: "another without an image",
+          section: "Adventure",handler: () => {
+              window.location.href = "/adventure/paragliding/";
+            },},{id: "adventure-biking",
+          title: 'Biking',
+          description: "a project that redirects to another website",
+          section: "Adventure",handler: () => {
+              window.location.href = "/adventure/rock-climbing/";
+            },},{id: "adventure-running",
+          title: 'Running',
+          description: "a project with no image",
+          section: "Adventure",handler: () => {
+              window.location.href = "/adventure/running/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
