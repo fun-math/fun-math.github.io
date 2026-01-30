@@ -2,8 +2,8 @@
 layout: page
 title: Running
 description: a project with no image
-img:
-importance: 4
+img: assets/img/run.jpg
+importance: 6
 category: fun
 ---
 

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Rock Climbing
-description: a project with a background image and giscus comments
-img: assets/img/rock-climbing.jpg
-importance: 2
+title: Biking
+description: a project that redirects to another website
+img: assets/img/biking.png
+redirect: https://unsplash.com
+importance: 3
 category: work
-giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.
