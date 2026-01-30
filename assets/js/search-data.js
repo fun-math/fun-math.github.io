@@ -435,9 +435,9 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "adventure-rock-climbing",
-          title: 'Rock Climbing',
-          description: "a project with a background image and giscus comments",
+      },{id: "adventure-biking",
+          title: 'Biking',
+          description: "a project that redirects to another website",
           section: "Adventure",handler: () => {
               window.location.href = "/adventure/biking/";
             },},{id: "adventure-cycling",
@@ -455,9 +455,9 @@ ninja.data = [{
           description: "another without an image",
           section: "Adventure",handler: () => {
               window.location.href = "/adventure/paragliding/";
-            },},{id: "adventure-biking",
-          title: 'Biking',
-          description: "a project that redirects to another website",
+            },},{id: "adventure-rock-climbing",
+          title: 'Rock Climbing',
+          description: "a project with a background image and giscus comments",
           section: "Adventure",handler: () => {
               window.location.href = "/adventure/rock-climbing/";
             },},{id: "adventure-running",
