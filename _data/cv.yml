@@ -31,13 +31,14 @@
   type: time_table
   contents:
     - year: 2017
-      item: Represented `India` at the `IAO` (International Astronomy Olympiad) held in Weihai, China and bagged `Diploma I` (`gold medal`) for securing `World Rank 3` among 33 selected students from 14 countries
+      items: 
+        - Represented <code>India</code> at the `IAO` (International Astronomy Olympiad) held in Weihai, China and bagged `Diploma I` (`gold medal`) for securing `World Rank 3` among 33 selected students from 14 countries
     - year: 2018
-      item: Represented `India` at the `IMO` (International Mathematical Olympiad) held in Cluj Napoca, Romania and achieved `Honorable Mention` competing with 594 selected students from 107 countries
-    - year: 2020  
-      item: Bagged `Bronze medal` in `Global Quarantine Mathematical Olympiad` among participants from 80+ countries
+      items: 
+        - Represented `India` at the `IMO` (International Mathematical Olympiad) held in Cluj Napoca, Romania and achieved `Honorable Mention` competing with 594 selected students from 107 countries
     - year: 2022
-      item: Ranked in `top quartile` in `Simon Marais Mathematics Competition`, helping IITB to stand `second` 
+      items: 
+        - Ranked in `top quartile` in `Simon Marais Mathematics Competition`, helping IITB to stand `second` 
 
 - title: Experience
   type: time_table
