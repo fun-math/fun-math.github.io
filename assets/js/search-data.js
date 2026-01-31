@@ -58,7 +58,14 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "nav-blog",
+            },{id: "nav-olympiads",
+          title: "Olympiads",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/olympiad/";
+          },
+        },{id: "nav-blog",
           title: "Blog",
           description: "",
           section: "Navigation",
@@ -491,6 +498,11 @@ ninja.data = [{
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-project-1",
+          title: 'project 1',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3-edge-cc/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
@@ -526,6 +538,21 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-project-1",
+          title: 'project 1',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/embmcg/";
+            },},{id: "projects-project-1",
+          title: 'project 1',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/iarc/";
+            },},{id: "projects-project-1",
+          title: 'project 1',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/usm/";
             },},{
         id: 'social-cv',
         title: 'CV',
