@@ -1,12 +1,43 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Extremal Minimal Bipartite Matching Covered Graphs
+description: Part of my masters thesis
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
+
+A bipartite matching covered graph is minimal if deletion of any edge results in a graph that is not matching covered. For a minimal BMCG, as we have deleted all the edges that we can possibly remove while retaining the matching covered property, one may hope to find _lots_ of vertices of _small_ degree. It is well-known that any MCG is 2-connected. So any vertex has degree at least 2. As it turns out, there are _lots_ of vertices of degree 2, which we will distinguish from the rest of the verties. Let 
+$V_2$ be the set of vertices of degree 2
+$V_3$ be the rest of the vertices (i.e. of degree at least 3). 
+
+In the same spirit, we define the following:
+$2$-edge : edge joining vertices of degree 2.
+$3$-edge : edge joining vertices of degree at least 3.   
+
+The following bounds were proved by Lovasz and Plummer. 
+
+Every time you have a bound, an important question erupts immediately. Firstly, is the bound tight? Is there any example that satisfies the bound with equality (if not, one may hope to improve the bound further). These examples, that satisfy a bound with equality are called _extremal_. 
+
+Now, every time you have a tight bound, another important question comes to the spotlight. What are all the extremal examples? This is exactly what we do. For each of the bounds, we characterize all the extremal examples.
+
+To state the characterization, we will first introduce an operation which we call isomorphic leaf matching.
+
+A tree is a holin tree if ...
+
+Thm: 
+
+## Easy Direction
+
+## Difficult Direction
+
+We want to prove that all extremal graphs look like something. This seems pretty hard, until you realize that you can play the uni reverse card. We will use induction. 
+
+### Balanced 2-cut property
+
+### Balanced 2-cut induction tool
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
