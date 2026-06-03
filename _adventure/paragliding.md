@@ -2,7 +2,7 @@
 layout: page
 title: Paragliding
 description: another without an image
-img: assets/img/paragliding.jpeg
+img: assets/img/paragliding_.jpeg
 importance: 4
 category: fun
 ---
